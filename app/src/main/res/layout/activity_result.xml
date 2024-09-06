@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".Result">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="127dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="80dp"
+            android:text="@string/rezsc"
+            android:textAlignment="center"
+            android:textColor="@color/pink"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="604dp"
+        android:background="@color/blue"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/editt"
+            android:layout_width="175sp"
+            android:layout_height="30sp"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="90dp"
+            android:background="@drawable/d"
+            android:backgroundTint="@color/white"
+            android:hint="@string/en"
+            android:inputType="number"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/res"
+            android:layout_width="170sp"
+            android:layout_height="30sp"
+            android:layout_marginLeft="115dp"
+            android:layout_marginTop="200dp"
+            android:background="@drawable/d"
+            android:backgroundTint="@color/white"
+            android:text="@string/rezzz"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <Button
+            android:id="@+id/sign"
+            android:layout_width="350dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="120dp"
+            android:background="@drawable/b"
+            android:onClick="backto"
+            android:text="@string/regis"
+            android:textAllCaps="true"
+            android:textColor="@color/white"
+            android:textSize="30dp" />
+    </LinearLayout>
+
+</LinearLayout>

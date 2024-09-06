@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">MarininaSR_PR-31_03</string>
+    <string name="login">Логин</string>
+    <string name="password">Пароль</string>
+    <string name="enter">Введите ваш логин и пароль</string>
+    <string name="next">Войти</string>
+    <string name="reg">Регистрация</string>
+    <string name="back">На главное меню</string>
+    <string name="cou">Расчет площади</string>
+    <string name="spisock">1.1-о комнатная квартира\n2.2-х комнатная\n3.3-х комнатная\n4.Студия</string>
+    <string name="en">введите кол-во метров</string>
+    <string name="rezzz">Результат</string>
+    <string name="rezsc">Результат расчета</string>
+    <string name="regis">Регистрация</string>
+    <string-array name="kv">
+        <item>1-о комнатная квартира</item>
+        <item>2-х комнатная квартира</item>
+        <item>3-х комнатная квартира</item>
+        <item>Студия</item>
+    </string-array>
+</resources>
